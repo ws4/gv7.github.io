@@ -9,14 +9,14 @@
     <meta name="description" content="###一、介绍Lynis是一款*nix（我在mac os x10.8.3，ubuntu 10.04, Debian 2.6上都测试过，能正常运行）上的开源的系统安全审计功能工具，该工具由一系列的shell脚本构成，可以在移动硬盘上运行（但运行需要root权限）。可以审计如下内容: 12345678910111213141516171819202122232425262728293031323334">
 <meta name="keywords" content="工具">
 <meta property="og:type" content="article">
-<meta property="og:title" content="lynis">
+<meta property="og:title" content="lynis—*nix安全审计工具">
 <meta property="og:url" content="http://www.gxv7.me/2017/06/13/lynis/index.html">
 <meta property="og:site_name" content="梁亦清的博客">
 <meta property="og:description" content="###一、介绍Lynis是一款*nix（我在mac os x10.8.3，ubuntu 10.04, Debian 2.6上都测试过，能正常运行）上的开源的系统安全审计功能工具，该工具由一系列的shell脚本构成，可以在移动硬盘上运行（但运行需要root权限）。可以审计如下内容: 12345678910111213141516171819202122232425262728293031323334">
 <meta property="og:image" content="http://image.3001.net/uploads/image/20130419/20130419105248_49828.jpg">
-<meta property="og:updated_time" content="2017-06-13T08:41:08.450Z">
+<meta property="og:updated_time" content="2017-06-13T08:43:18.880Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="lynis">
+<meta name="twitter:title" content="lynis—*nix安全审计工具">
 <meta name="twitter:description" content="###一、介绍Lynis是一款*nix（我在mac os x10.8.3，ubuntu 10.04, Debian 2.6上都测试过，能正常运行）上的开源的系统安全审计功能工具，该工具由一系列的shell脚本构成，可以在移动硬盘上运行（但运行需要root权限）。可以审计如下内容: 12345678910111213141516171819202122232425262728293031323334">
 <meta name="twitter:image" content="http://image.3001.net/uploads/image/20130419/20130419105248_49828.jpg">
     
@@ -38,7 +38,7 @@
         
     
     <!-- title -->
-    <title>lynis</title>
+    <title>lynis—*nix安全审计工具</title>
     <!-- styles -->
     <link rel="stylesheet" href="/css/style.css">
     <!-- rss -->
@@ -85,15 +85,15 @@
     <div id="share" style="display: none">
       <ul>
   <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://www.gxv7.me/2017/06/13/lynis/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://www.gxv7.me/2017/06/13/lynis/&text=lynis"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://www.gxv7.me/2017/06/13/lynis/&is_video=false&description=lynis"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=lynis&body=Check out this article: http://www.gxv7.me/2017/06/13/lynis/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://www.gxv7.me/2017/06/13/lynis/&name=lynis&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://www.gxv7.me/2017/06/13/lynis/&text=lynis—*nix安全审计工具"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://www.gxv7.me/2017/06/13/lynis/&is_video=false&description=lynis—*nix安全审计工具"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=lynis—*nix安全审计工具&body=Check out this article: http://www.gxv7.me/2017/06/13/lynis/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://www.gxv7.me/2017/06/13/lynis/&name=lynis—*nix安全审计工具&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -110,7 +110,7 @@
   <header>
     
     <h1 class="posttitle" itemprop="name headline">
-        lynis
+        lynis—*nix安全审计工具
     </h1>
 
 
@@ -222,15 +222,15 @@
     <div id="share-footer" style="display: none">
       <ul>
   <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://www.gxv7.me/2017/06/13/lynis/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=http://www.gxv7.me/2017/06/13/lynis/&text=lynis"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://www.gxv7.me/2017/06/13/lynis/&is_video=false&description=lynis"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=lynis&body=Check out this article: http://www.gxv7.me/2017/06/13/lynis/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://www.gxv7.me/2017/06/13/lynis/&name=lynis&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://www.gxv7.me/2017/06/13/lynis/&text=lynis—*nix安全审计工具"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://www.gxv7.me/2017/06/13/lynis/&is_video=false&description=lynis—*nix安全审计工具"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=lynis—*nix安全审计工具&body=Check out this article: http://www.gxv7.me/2017/06/13/lynis/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://www.gxv7.me/2017/06/13/lynis/&title=lynis—*nix安全审计工具"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://www.gxv7.me/2017/06/13/lynis/&name=lynis—*nix安全审计工具&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
